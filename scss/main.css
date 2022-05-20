@@ -475,7 +475,7 @@
   }
 }
 
-@media (width: 900px) {
+@media (width: 390px) {
   .hero__section {
     height: 100vh;
     -ms-flex-line-pack: justify;
