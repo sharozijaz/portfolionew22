@@ -1,0 +1,69 @@
+.hero__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100vh;
+  overflow: hidden;
+}
+.hero__section-heading {
+  text-align: center;
+}
+.hero__section-heading h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 8rem;
+  font-weight: 500;
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.hero__section-heading p {
+  padding-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+}
+// Social Icons
+.hero__section-social {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+.hero__section-social i {
+  margin: 0.7rem;
+  color: black;
+  font-size: 2rem;
+  &:hover {
+    background-image: linear-gradient(90deg, #ec255a, #9145b6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: ease-in-out 98ms transform;
+    transform: scale(1.1);
+  }
+}
+.hero__section-email {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.hero__section-email p {
+  transform: rotate(90deg);
+  margin-right: -4rem;
+}
+
+.hero__section-email a {
+  text-decoration: none;
+  color: black;
+}
+.hero__section-links {
+  margin-top: 2rem;
+}
+.hero__section-links a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}

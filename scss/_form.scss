@@ -1,0 +1,59 @@
+.form__section {
+  height: 50vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #eef1f0;
+}
+.form__section h2 {
+  color: rgba(197, 197, 197, 0.867);
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+.form__section p {
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  margin-top: 2rem;
+}
+.form__section-main {
+  margin: 2rem 0rem 0rem 5rem;
+}
+.contact__form-name,
+.contact__form-email {
+  padding: 1rem 2rem;
+}
+.contact__form-button {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 13px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.contact__form-button:hover {
+  transition: all 0.5s;
+  background-color: white;
+  color: black;
+  border: 2px solid;
+}
+.form__section-social {
+  display: flex;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: -3rem;
+}
+.form__section-social i {
+  padding-left: 2rem;
+  color: black;
+  font-size: 2rem;
+  &:hover {
+    background-image: linear-gradient(90deg, #ec255a, #9145b6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: ease-in-out 98ms transform;
+    transform: scale(1.1);
+  }
+}

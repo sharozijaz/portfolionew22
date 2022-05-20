@@ -1,0 +1,25 @@
+.testimonial__section {
+  height: 80vh;
+  font-family: "Roboto", sans-serif;
+}
+.testimonial__section h2 {
+  color: #dddd;
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+// .testimonial__section h2::after{
+
+// }
+.testimonial__section-text {
+  text-align: left;
+  font-size: 1.8rem;
+  padding-left: 18rem;
+  margin-bottom: 2rem;
+}
+.testimonial__section-text p {
+  margin-bottom: 2rem;
+}
+.testimonial__section span {
+  font-size: 1.3rem;
+  font-weight: 700;
+}

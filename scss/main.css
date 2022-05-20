@@ -1,0 +1,575 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero__section-heading {
+  text-align: center;
+}
+
+.hero__section-heading h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 8rem;
+  font-weight: 500;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero__section-heading p {
+  padding-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+}
+
+.hero__section-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero__section-social i {
+  margin: 0.7rem;
+  color: black;
+  font-size: 2rem;
+}
+
+.hero__section-social i:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-transition: ease-in-out 98ms transform;
+  transition: ease-in-out 98ms transform;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.hero__section-email {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.hero__section-email p {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-right: -4rem;
+}
+
+.hero__section-email a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero__section-links {
+  margin-top: 2rem;
+}
+
+.hero__section-links a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.about__section {
+  height: 50vh;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.about__section h2 {
+  color: #dddd;
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+
+.about__section p {
+  font-size: 2rem;
+  padding-left: 18rem;
+}
+
+.about__section span {
+  font-weight: 700;
+}
+
+.portfolio__section {
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.portfolio__section-text h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio__section-text span {
+  font-weight: 700;
+}
+
+.portfolio__section-text p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio__section-text button {
+  -webkit-transition: ease-in-out 98ms;
+  transition: ease-in-out 98ms;
+  background-color: black;
+  color: white;
+  border: 2px solid;
+  font-weight: 700;
+  padding: 1rem 1rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio__section-text button:hover {
+  -webkit-transition: ease-in-out 98ms;
+  transition: ease-in-out 98ms;
+  background-color: transparent;
+  color: black;
+  border: 2px solid;
+}
+
+.testimonial__section {
+  height: 80vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.testimonial__section h2 {
+  color: #dddd;
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+
+.testimonial__section-text {
+  text-align: left;
+  font-size: 1.8rem;
+  padding-left: 18rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial__section-text p {
+  margin-bottom: 2rem;
+}
+
+.testimonial__section span {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.form__section {
+  height: 50vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #eef1f0;
+}
+
+.form__section h2 {
+  color: rgba(197, 197, 197, 0.867);
+  font-size: 5rem;
+  padding-left: 3rem;
+}
+
+.form__section p {
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  margin-top: 2rem;
+}
+
+.form__section-main {
+  margin: 2rem 0rem 0rem 5rem;
+}
+
+.contact__form-name,
+.contact__form-email {
+  padding: 1rem 2rem;
+}
+
+.contact__form-button {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 13px 10px 15px -3px rgba(0, 0, 0, 0.1);
+          box-shadow: 13px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.contact__form-button:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: white;
+  color: black;
+  border: 2px solid;
+}
+
+.form__section-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: -3rem;
+}
+
+.form__section-social i {
+  padding-left: 2rem;
+  color: black;
+  font-size: 2rem;
+}
+
+.form__section-social i:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-transition: ease-in-out 98ms transform;
+  transition: ease-in-out 98ms transform;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (width: 500px) {
+  .hero__section {
+    height: 100vh;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero__section .hero__section-social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .hero__section h1 {
+    font-size: 4.5rem;
+  }
+  .hero__section p {
+    font-size: 1rem;
+  }
+  .hero__section-email p {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    font-size: 1.2rem;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  .about__section {
+    height: 50vh;
+  }
+  .about__section p {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
+  .portfolio__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio__section-image img {
+    height: 16rem;
+    width: auto;
+  }
+  .portfolio__section-text {
+    text-align: center;
+  }
+  .natureplus {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .testimonial__section h2 {
+    font-size: 4.5rem;
+  }
+  .testimonial__section-text {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .form__section h2 {
+    font-size: 4.5rem;
+  }
+  .form__section-main {
+    margin: 2rem 0rem 0rem 2rem;
+  }
+  .form__section p {
+    padding-left: 2rem;
+  }
+  .form__section {
+    height: 70vh;
+  }
+  .contact__form-name {
+    margin-bottom: 2rem;
+  }
+  .contact__form-name,
+  .contact__form-email {
+    padding: 1rem 8rem;
+  }
+  .form__section input {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .contact__form-button {
+    margin-top: 1rem;
+    display: block;
+  }
+}
+
+@media (width: 700px) {
+  .hero__section {
+    height: 100vh;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero__section .hero__section-social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .hero__section h1 {
+    font-size: 4.5rem;
+  }
+  .hero__section p {
+    font-size: 1rem;
+  }
+  .hero__section-email p {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    font-size: 1.2rem;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  .about__section {
+    height: 50vh;
+  }
+  .about__section p {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
+  .portfolio__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio__section-image img {
+    height: 16rem;
+    width: auto;
+  }
+  .portfolio__section-text {
+    text-align: center;
+  }
+  .natureplus {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .testimonial__section h2 {
+    font-size: 4.5rem;
+  }
+  .testimonial__section-text {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .form__section h2 {
+    font-size: 4.5rem;
+  }
+  .form__section-main {
+    margin: 2rem 0rem 0rem 2rem;
+  }
+  .form__section p {
+    padding-left: 2rem;
+  }
+  .form__section {
+    height: 70vh;
+  }
+  .contact__form-name {
+    margin-bottom: 2rem;
+  }
+  .contact__form-name,
+  .contact__form-email {
+    padding: 1rem 8rem;
+  }
+  .form__section input {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .contact__form-button {
+    margin-top: 1rem;
+    display: block;
+  }
+}
+
+@media (width: 900px) {
+  .hero__section {
+    height: 100vh;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero__section .hero__section-social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .hero__section h1 {
+    font-size: 4.5rem;
+  }
+  .hero__section p {
+    font-size: 1rem;
+  }
+  .hero__section-email p {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    font-size: 1.2rem;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+  .about__section {
+    height: 50vh;
+  }
+  .about__section p {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
+  .portfolio__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio__section-image img {
+    height: 16rem;
+    width: auto;
+  }
+  .portfolio__section-text {
+    text-align: center;
+  }
+  .natureplus {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .testimonial__section h2 {
+    font-size: 4.5rem;
+  }
+  .testimonial__section-text {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .form__section h2 {
+    font-size: 4.5rem;
+  }
+  .form__section-main {
+    margin: 2rem 0rem 0rem 2rem;
+  }
+  .form__section p {
+    padding-left: 2rem;
+  }
+  .form__section {
+    height: 70vh;
+  }
+  .contact__form-name {
+    margin-bottom: 2rem;
+  }
+  .contact__form-name,
+  .contact__form-email {
+    padding: 1rem 8rem;
+  }
+  .form__section input {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .contact__form-button {
+    margin-top: 1rem;
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
