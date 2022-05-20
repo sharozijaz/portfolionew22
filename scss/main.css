@@ -301,6 +301,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-bottom: -2rem;
   }
   .hero__section h1 {
     font-size: 4.5rem;
