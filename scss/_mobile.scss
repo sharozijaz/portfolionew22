@@ -1,4 +1,4 @@
-@media (width: 500px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .hero__section {
     height: 100vh;
     align-content: space-between;
@@ -80,171 +80,172 @@
     display: block;
   }
 }
+// }
 
-// Screeen size 700
-@media (width: 700px) {
-  .hero__section {
-    height: 100vh;
-    align-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    .hero__section-social {
-      flex-direction: row;
-    }
-    h1 {
-      font-size: 4.5rem;
-    }
-    p {
-      font-size: 1rem;
-    }
-  }
-  .hero__section-email p {
-    transform: rotate(0);
-    font-size: 1.2rem;
-    margin: auto;
-    padding-bottom: 2rem;
-  }
-  .about__section {
-    height: 50vh;
-  }
-  .about__section p {
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    text-align: left;
-  }
-  .portfolio__section {
-    flex-direction: column;
-  }
-  .portfolio__section-image img {
-    height: 16rem;
-    width: auto;
-  }
-  .portfolio__section-text {
-    text-align: center;
-  }
-  .natureplus {
-    flex-direction: column-reverse;
-  }
-  .testimonial__section h2 {
-    font-size: 4.5rem;
-  }
-  .testimonial__section-text {
-    margin-top: 1.5rem;
-    text-align: left;
-    font-size: 1.4rem;
-    padding-left: 1rem;
-    margin-bottom: 2rem;
-  }
-  .form__section h2 {
-    font-size: 4.5rem;
-  }
-  .form__section-main {
-    margin: 2rem 0rem 0rem 2rem;
-  }
-  .form__section p {
-    padding-left: 2rem;
-  }
-  .form__section {
-    height: 70vh;
-  }
-  .contact__form-name {
-    margin-bottom: 2rem;
-  }
-  .contact__form-name,
-  .contact__form-email {
-    padding: 1rem 8rem;
-  }
-  .form__section input {
-    text-align: left;
-    padding-left: 1rem;
-  }
+// // Screeen size 700
+// @media (width: 700px) {
+//   .hero__section {
+//     height: 100vh;
+//     align-content: space-between;
+//     align-items: center;
+//     flex-direction: column;
+//     .hero__section-social {
+//       flex-direction: row;
+//     }
+//     h1 {
+//       font-size: 4.5rem;
+//     }
+//     p {
+//       font-size: 1rem;
+//     }
+//   }
+//   .hero__section-email p {
+//     transform: rotate(0);
+//     font-size: 1.2rem;
+//     margin: auto;
+//     padding-bottom: 2rem;
+//   }
+//   .about__section {
+//     height: 50vh;
+//   }
+//   .about__section p {
+//     font-size: 1.5rem;
+//     padding-left: 1rem;
+//     text-align: left;
+//   }
+//   .portfolio__section {
+//     flex-direction: column;
+//   }
+//   .portfolio__section-image img {
+//     height: 16rem;
+//     width: auto;
+//   }
+//   .portfolio__section-text {
+//     text-align: center;
+//   }
+//   .natureplus {
+//     flex-direction: column-reverse;
+//   }
+//   .testimonial__section h2 {
+//     font-size: 4.5rem;
+//   }
+//   .testimonial__section-text {
+//     margin-top: 1.5rem;
+//     text-align: left;
+//     font-size: 1.4rem;
+//     padding-left: 1rem;
+//     margin-bottom: 2rem;
+//   }
+//   .form__section h2 {
+//     font-size: 4.5rem;
+//   }
+//   .form__section-main {
+//     margin: 2rem 0rem 0rem 2rem;
+//   }
+//   .form__section p {
+//     padding-left: 2rem;
+//   }
+//   .form__section {
+//     height: 70vh;
+//   }
+//   .contact__form-name {
+//     margin-bottom: 2rem;
+//   }
+//   .contact__form-name,
+//   .contact__form-email {
+//     padding: 1rem 8rem;
+//   }
+//   .form__section input {
+//     text-align: left;
+//     padding-left: 1rem;
+//   }
 
-  .contact__form-button {
-    margin-top: 1rem;
-    display: block;
-  }
-}
-// Screen 900
-@media (min-width: 390px) {
-  .hero__section {
-    height: 100vh;
-    width: 100%;
-    align-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    .hero__section-social {
-      flex-direction: row;
-    }
-    h1 {
-      font-size: 4rem;
-    }
-    p {
-      font-size: 0.8rem;
-    }
-  }
-  .hero__section-email p {
-    transform: rotate(0);
-    font-size: 1.2rem;
-    margin: auto;
-    padding-bottom: 2rem;
-  }
-  .about__section {
-    height: 50vh;
-  }
-  .about__section p {
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    text-align: left;
-  }
-  .portfolio__section {
-    flex-direction: column;
-  }
-  .portfolio__section-image img {
-    height: 16rem;
-    width: auto;
-  }
-  .portfolio__section-text {
-    text-align: center;
-  }
-  .natureplus {
-    flex-direction: column-reverse;
-  }
-  .testimonial__section h2 {
-    font-size: 4.5rem;
-  }
-  .testimonial__section-text {
-    margin-top: 1.5rem;
-    text-align: left;
-    font-size: 1.4rem;
-    padding-left: 1rem;
-    margin-bottom: 2rem;
-  }
-  .form__section h2 {
-    font-size: 4.5rem;
-  }
-  .form__section-main {
-    margin: 2rem 0rem 0rem 2rem;
-  }
-  .form__section p {
-    padding-left: 2rem;
-  }
-  .form__section {
-    height: 70vh;
-  }
-  .contact__form-name {
-    margin-bottom: 2rem;
-  }
-  .contact__form-name,
-  .contact__form-email {
-    padding: 1rem 8rem;
-  }
-  .form__section input {
-    text-align: left;
-    padding-left: 1rem;
-  }
+//   .contact__form-button {
+//     margin-top: 1rem;
+//     display: block;
+//   }
+// }
+// // Screen 900
+// @media (min-width: 390px) {
+//   .hero__section {
+//     height: 100vh;
+//     width: 100%;
+//     align-content: space-between;
+//     align-items: center;
+//     flex-direction: column;
+//     .hero__section-social {
+//       flex-direction: row;
+//     }
+//     h1 {
+//       font-size: 4rem;
+//     }
+//     p {
+//       font-size: 0.8rem;
+//     }
+//   }
+//   .hero__section-email p {
+//     transform: rotate(0);
+//     font-size: 1.2rem;
+//     margin: auto;
+//     padding-bottom: 2rem;
+//   }
+//   .about__section {
+//     height: 50vh;
+//   }
+//   .about__section p {
+//     font-size: 1.5rem;
+//     padding-left: 1rem;
+//     text-align: left;
+//   }
+//   .portfolio__section {
+//     flex-direction: column;
+//   }
+//   .portfolio__section-image img {
+//     height: 16rem;
+//     width: auto;
+//   }
+//   .portfolio__section-text {
+//     text-align: center;
+//   }
+//   .natureplus {
+//     flex-direction: column-reverse;
+//   }
+//   .testimonial__section h2 {
+//     font-size: 4.5rem;
+//   }
+//   .testimonial__section-text {
+//     margin-top: 1.5rem;
+//     text-align: left;
+//     font-size: 1.4rem;
+//     padding-left: 1rem;
+//     margin-bottom: 2rem;
+//   }
+//   .form__section h2 {
+//     font-size: 4.5rem;
+//   }
+//   .form__section-main {
+//     margin: 2rem 0rem 0rem 2rem;
+//   }
+//   .form__section p {
+//     padding-left: 2rem;
+//   }
+//   .form__section {
+//     height: 70vh;
+//   }
+//   .contact__form-name {
+//     margin-bottom: 2rem;
+//   }
+//   .contact__form-name,
+//   .contact__form-email {
+//     padding: 1rem 8rem;
+//   }
+//   .form__section input {
+//     text-align: left;
+//     padding-left: 1rem;
+//   }
 
-  .contact__form-button {
-    margin-top: 1rem;
-    display: block;
-  }
-}
+//   .contact__form-button {
+//     margin-top: 1rem;
+//     display: block;
+//   }
+// }
