@@ -26,19 +26,19 @@
   transition: ease-in-out 98ms;
   background-color: black;
   color: white;
-  border: 2px solid;
   font-weight: 700;
   padding: 1rem 1rem;
-  border: 2px solid black;
+  border: none;
   border-radius: 3px;
   font-size: 0.9rem;
   cursor: pointer;
   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
 }
 .portfolio__section-text button:hover {
-  transition: ease-in-out 98ms;
+  text-decoration: underline;
+}
 
-  background-color: transparent;
-  color: black;
-  border: 2px solid;
+.portfolio__section-text a {
+  text-decoration: none;
+  color: white;
 }
