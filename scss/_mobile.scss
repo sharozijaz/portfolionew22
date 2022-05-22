@@ -82,7 +82,11 @@
   }
   .form__section {
     height: 70vh;
+    h2 {
+      padding-top: 1rem;
+    }
   }
+
   .contact__form-name {
     margin-bottom: 2rem;
   }
