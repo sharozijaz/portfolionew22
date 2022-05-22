@@ -239,6 +239,14 @@ html {
   font-weight: 700;
 }
 
+.testimonial__section span a {
+  color: #1d2323;
+}
+
+.testimonial__section span a:hover {
+  text-decoration: underline;
+}
+
 .form__section {
   height: 50vh;
   font-family: "Roboto", sans-serif;

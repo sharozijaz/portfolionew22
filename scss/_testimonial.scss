@@ -15,4 +15,10 @@
 .testimonial__section span {
   font-size: 1.3rem;
   font-weight: 700;
+  a {
+    color: $black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
