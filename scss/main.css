@@ -390,7 +390,7 @@ html {
     margin-bottom: 1rem;
   }
   .portfolio__section-text {
-    margin-bottom: -2rem;
+    padding-bottom: -2rem;
   }
   .portfolio__section-image img {
     height: 12rem;
