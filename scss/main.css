@@ -329,7 +329,7 @@ html {
           transform: scale(1.1);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 480px) {
   html {
     overflow: auto;
   }
@@ -366,7 +366,10 @@ html {
     padding-bottom: 7rem;
   }
   .about__section {
-    height: 70vh;
+    height: 50vh;
+  }
+  .title {
+    font-size: 3rem;
   }
   .about__section p {
     font-size: 1rem;
@@ -381,7 +384,7 @@ html {
             flex-direction: column;
   }
   .portfolio__section-image img {
-    height: 16rem;
+    height: 14.4rem;
     width: auto;
   }
   .portfolio__section-text {
@@ -396,19 +399,12 @@ html {
   .testimonial__section {
     height: 100vh;
   }
-  .testimonial__section h2 {
-    font-size: 3rem;
-  }
   .testimonial__section-text {
     margin-top: 1.5rem;
     text-align: left;
     font-size: 1.4rem;
     padding-left: 1rem;
     margin-bottom: 2rem;
-  }
-  .form__section h2 {
-    padding-top: 1rem;
-    font-size: 3rem;
   }
   .form__section-main {
     margin: 2rem 0rem 0rem 2rem;
