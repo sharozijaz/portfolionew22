@@ -41,6 +41,10 @@
     height: 100vh;
     flex-direction: column;
   }
+  .portfolio__section-text p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .portfolio__section-image img {
     height: 12rem;
     width: auto;
