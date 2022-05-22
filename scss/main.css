@@ -384,7 +384,7 @@ html {
             flex-direction: column;
   }
   .portfolio__section-image img {
-    height: 14.4rem;
+    height: 12rem;
     width: auto;
   }
   .portfolio__section-text {
