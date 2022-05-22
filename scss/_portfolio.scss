@@ -6,15 +6,16 @@
   padding: 2rem;
   height: 100vh;
   overflow: hidden;
+  text-align: left;
 }
 
 .portfolio__section-text h3 {
-  font-size: 2.5rem;
-  //   padding-top: 2rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 .portfolio__section-text span {
   font-weight: 700;
+  font-size: 1.2rem;
 }
 .portfolio__section-text p {
   font-size: 1.2rem;
@@ -23,19 +24,28 @@
 }
 .portfolio__section-text button {
   // padding-top: 2rem
-  transition: ease-in-out 98ms;
-  background-color: black;
-  color: white;
+  border: 2px solid $black;
+  transition: ease-in-out 0.3s;
+  background-color: #1d2323;
+  // color: black;
   font-weight: 700;
   padding: 1rem 1rem;
-  border: none;
+  // border: none;
   border-radius: 3px;
   font-size: 0.9rem;
   cursor: pointer;
   box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
 }
 .portfolio__section-text button:hover {
-  text-decoration: underline;
+  border: 2px solid $black;
+  transition: ease-in-out 0.3s;
+  background-color: white;
+  a {
+    background-image: linear-gradient(90deg, #ec255a, #9145b6);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
 
 .portfolio__section-text a {

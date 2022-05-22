@@ -6,6 +6,39 @@
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
+html {
+  background-color: #f7f7f7;
+}
+
+::-moz-selection {
+  background-color: transparent;
+  color: #ec255a;
+}
+
+::selection {
+  background-color: transparent;
+  color: #ec255a;
+}
+
+.title {
+  color: #929aab;
+  font-size: 5rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.gradient_text {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .hero__section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,11 +61,6 @@
   font-family: "Pacifico", cursive;
   font-size: 8rem;
   font-weight: 500;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
-  background-image: linear-gradient(90deg, #ec255a, #9145b6);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 
 .hero__section-heading p {
@@ -54,7 +82,7 @@
 
 .hero__section-social i {
   margin: 0.7rem;
-  color: black;
+  color: #1d2323;
   font-size: 2rem;
 }
 
@@ -82,6 +110,14 @@
   margin-right: -4rem;
 }
 
+.hero__section-email p:hover {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .hero__section-email a {
   text-decoration: none;
   color: black;
@@ -97,19 +133,13 @@
   color: black;
   padding: 1rem;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .about__section {
   height: 50vh;
   font-family: "Roboto", sans-serif;
   overflow: hidden;
-}
-
-.about__section h2 {
-  color: #dddd;
-  font-size: 5rem;
-  padding-left: 3rem;
 }
 
 .about__section p {
@@ -135,15 +165,17 @@
   padding: 2rem;
   height: 100vh;
   overflow: hidden;
+  text-align: left;
 }
 
 .portfolio__section-text h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 
 .portfolio__section-text span {
   font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .portfolio__section-text p {
@@ -153,13 +185,12 @@
 }
 
 .portfolio__section-text button {
-  -webkit-transition: ease-in-out 98ms;
-  transition: ease-in-out 98ms;
-  background-color: black;
-  color: white;
+  border: 2px solid #1d2323;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  background-color: #1d2323;
   font-weight: 700;
   padding: 1rem 1rem;
-  border: none;
   border-radius: 3px;
   font-size: 0.9rem;
   cursor: pointer;
@@ -168,7 +199,18 @@
 }
 
 .portfolio__section-text button:hover {
-  text-decoration: underline;
+  border: 2px solid #1d2323;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  background-color: white;
+}
+
+.portfolio__section-text button:hover a {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .portfolio__section-text a {
@@ -179,12 +221,6 @@
 .testimonial__section {
   height: 80vh;
   font-family: "Roboto", sans-serif;
-}
-
-.testimonial__section h2 {
-  color: #dddd;
-  font-size: 5rem;
-  padding-left: 3rem;
 }
 
 .testimonial__section-text {
@@ -206,19 +242,17 @@
 .form__section {
   height: 50vh;
   font-family: "Roboto", sans-serif;
-  background-color: #eef1f0;
-}
-
-.form__section h2 {
-  color: rgba(197, 197, 197, 0.867);
-  font-size: 5rem;
-  padding-left: 3rem;
+  background-color: #ececec;
 }
 
 .form__section p {
   font-size: 1.5rem;
   padding-left: 5rem;
-  margin-top: 2rem;
+}
+
+.form__section input {
+  border: 1px solid #1d2323;
+  border-radius: 0.2rem;
 }
 
 .form__section-main {
@@ -231,12 +265,12 @@
 }
 
 .contact__form-button {
-  background-color: black;
+  background-color: #1d2323;
   color: white;
-  padding: 1rem 2rem;
-  border: 2px solid black;
-  border-radius: 3px;
-  font-size: 0.9rem;
+  padding: 0.8rem 2.2rem;
+  border: 2px solid #1d2323;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -249,8 +283,15 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: white;
-  color: black;
-  border: 2px solid;
+  border: 2px solid #1d2323;
+}
+
+.contact__form-button:hover span {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ec255a), to(#9145b6));
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .form__section-social {
@@ -264,7 +305,7 @@
 
 .form__section-social i {
   padding-left: 2rem;
-  color: black;
+  color: #1d2323;
   font-size: 2rem;
 }
 

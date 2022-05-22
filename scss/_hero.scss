@@ -13,10 +13,6 @@
   font-family: "Pacifico", cursive;
   font-size: 8rem;
   font-weight: 500;
-  background-image: linear-gradient(90deg, #ec255a, #9145b6);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 .hero__section-heading p {
   padding-top: 2rem;
@@ -31,7 +27,7 @@
 }
 .hero__section-social i {
   margin: 0.7rem;
-  color: black;
+  color: #1d2323;
   font-size: 2rem;
   &:hover {
     background-image: linear-gradient(90deg, #ec255a, #9145b6);
@@ -51,7 +47,12 @@
   transform: rotate(90deg);
   margin-right: -4rem;
 }
-
+.hero__section-email p:hover {
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 .hero__section-email a {
   text-decoration: none;
   color: black;
@@ -65,5 +66,5 @@
   color: black;
   padding: 1rem;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }

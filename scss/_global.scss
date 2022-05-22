@@ -4,3 +4,29 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+a {
+  text-decoration: none;
+}
+html {
+  background-color: #f7f7f7;
+}
+::selection {
+  background-color: transparent;
+
+  color: #ec255a;
+}
+.title {
+  color: #929aab;
+  font-size: 5rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+.gradient_text {
+  background-image: linear-gradient(90deg, #ec255a, #9145b6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+// Colors
+$black: #1d2323;
+$gray: #929aab;
