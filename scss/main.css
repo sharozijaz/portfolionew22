@@ -393,8 +393,8 @@ html {
     margin-top: -2rem;
   }
   .portfolio__section-image img {
-    height: 12rem;
-    width: auto;
+    height: auto;
+    width: 10rem;
   }
   .portfolio__section-text {
     text-align: center;
