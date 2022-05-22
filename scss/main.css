@@ -387,13 +387,13 @@ html {
   }
   .portfolio__section-text p {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
   }
   .portfolio__section-text {
     padding-bottom: -2rem;
   }
   .portfolio__section-image img {
-    height: 12rem;
+    height: 12.4rem;
     width: auto;
   }
   .portfolio__section-text {
