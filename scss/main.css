@@ -389,8 +389,10 @@ html {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  .portfolio__section-image img {
+  .portfolio__section-image {
     padding-top: -2rem;
+  }
+  .portfolio__section-image img {
     height: 12rem;
     width: auto;
   }
